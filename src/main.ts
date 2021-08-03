@@ -19,6 +19,7 @@ const router = createRouter({
   routes,
 })
 const head = createHead()
+
 app.use(head)
 app.use(router)
 
@@ -29,6 +30,7 @@ const context: VueModuleContext<true> = {
   routes,
 }
 
+// this loads the modules using Vite's loader
 Object.values(import.meta.globEager('./modules/*.ts')).map(i => i.install?.(context))
 
 app.mount('#app')
