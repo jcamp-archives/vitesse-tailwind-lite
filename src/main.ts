@@ -16,7 +16,7 @@ const routes = setupLayouts(generatedRoutes)
 const app = createApp(App)
 const router = createRouter({
   history: createWebHistory(),
-  routes,
+  routes
 })
 const head = createHead()
 
@@ -27,7 +27,7 @@ const context: VueModuleContext<true> = {
   app,
   head,
   router,
-  routes,
+  routes
 }
 
 // this loads the modules using Vite's loader
