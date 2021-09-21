@@ -22,15 +22,21 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 - 📦 [Components auto importing](./src/components)
 
+- 🍍 [State Management via Pinia](https://pinia.esm.dev/)
+
 - 📑 [Layout system](./src/layouts)
 
 - 🎨 [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) - utility-first CSS framework
 
-- 😃 [Use icons from any icon sets, with no compromise](./src/components)
+- 😃 [Use icons from any icon sets, with no compromise](https://github.com/antfu/unplugin-icons)
 
 - 🌍 [I18n ready](./locales)
 
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
+- 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
+
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+
+- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
 
 - 🦾 TypeScript, of course
 
@@ -48,20 +54,21 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) - icons as Vue components
+- [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - icons as Vue components
 
 ### Plugins
 
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
   - [`vite-plugin-vue-layouts`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - layouts for pages
-- [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - components auto import
+- [Pinia](https://pinia.esm.dev) - Intuitive, type safe, light and flexible Store for Vue using the composition api
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - WindiCSS support
 - [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
   - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 - [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
-- [`vue-global-api`](https://github.com/antfu/vue-global-api) - Use Vue Composition API globally
 
 ### Coding Style
 
@@ -72,6 +79,7 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
+- [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
 - [Netlify](https://www.netlify.com/) - zero-config deployment
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
@@ -86,9 +94,10 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 As this template is strongly opinionated, the following provides a curated list for community-maintained variations with different preferences and feature sets. Check them out as well. PR to add yours is also welcome!
 
 ###### Official
+
 - [**vitesse-lite**](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
 - [**vitesse-webext**](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
-- [vitesse-nuxt](https://github.com/antfu/vitesse-nuxt) - Vitesse for Nuxt 2 (expiremental, currently out-of-date)
+- [vitesse-nuxt](https://github.com/antfu/vitesse-nuxt) - Vitesse experience for Nuxt 2
 
 ###### Community
 - [vitesse-addons](https://github.com/JohnCampionJr/vitesse-addons) by [@johncampionjr](https://github.com/johncampionjr) - additional options for integrations, including [Prettier](https://prettier.io) and [Storybook](https://storybook.js.org)
